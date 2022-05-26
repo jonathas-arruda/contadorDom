@@ -1,8 +1,8 @@
 let num = 0;
 
-// é necessario realmente repetir ou existe alguma outra forma ?
-
-mostrar()
+window.onload = function() {
+  mostrar()
+};
 
 function mostrar(){
   const numero = document.getElementById("numero");
